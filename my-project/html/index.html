@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NGOMBE HII INGIA YOU TUBE</title>
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .message {
+            font-size: 2.5em;
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #ff0055, #ffcc00);
+            color: #000;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(255, 0, 85, 0.6);
+            animation: pulse 2s infinite;
+            cursor: pointer;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="message" onclick="goToYouTube()">
+        NGOMBE HII INGIA YOU TUBE
+    </div>
+
+    <script>
+        function goToYouTube() {
+            window.open("https://www.youtube.com", "_blank");
+        }
+    </script>
+</body>
+</html>
